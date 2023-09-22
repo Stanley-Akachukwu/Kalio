@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\Kalio.Common.csproj": {}
+    "C:\\Projects\\Web\\Kalio\\Kalio.Common\\Kalio.Common.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\Kalio.Common.csproj": {
+    "C:\\Projects\\Web\\Kalio\\Kalio.Common\\Kalio.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\Kalio.Common.csproj",
+        "projectUniqueName": "C:\\Projects\\Web\\Kalio\\Kalio.Common\\Kalio.Common.csproj",
         "projectName": "Kalio.Common",
-        "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\Kalio.Common.csproj",
+        "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Common\\Kalio.Common.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\obj\\",
+        "outputPath": "C:\\Projects\\Web\\Kalio\\Kalio.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

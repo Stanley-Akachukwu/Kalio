@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ycWmRlrdpoSIzI8TneZ93UtXb7a0mYDDOlW6eKhI8uL9+dKsvfFFzN4z57hT2bDnNR9USewbKGrXzeymsblylw==",
+  "dgSpecHash": "h3XNnxnZt4dhZ7bbRYbALP/hVlgl1mQ+b1cgCqsJtQcu2X0Rw9jTwxMZ80QIHExd6gGcyakFTggZE5vDaDW97w==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Maui\\Kalio.Maui.csproj",
+  "projectFilePath": "C:\\Projects\\Web\\Kalio\\Kalio.Maui\\Kalio.Maui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

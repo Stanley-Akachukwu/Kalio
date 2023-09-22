@@ -24369,11 +24369,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Web\\KalioSolution\\Kalio.Maui\\Kalio.Maui.csproj",
+      "projectUniqueName": "C:\\Projects\\Web\\Kalio\\Kalio.Maui\\Kalio.Maui.csproj",
       "projectName": "Kalio.Maui",
-      "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Maui\\Kalio.Maui.csproj",
+      "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Maui\\Kalio.Maui.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Maui\\obj\\",
+      "outputPath": "C:\\Projects\\Web\\Kalio\\Kalio.Maui\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

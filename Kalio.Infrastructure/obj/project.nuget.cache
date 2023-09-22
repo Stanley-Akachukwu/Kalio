@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lEjUiwhOdp3en5Q4vFlgP72fWK8j0yzuF8Qx9tMpcVBOydW0HylP7IV6rKhH9G0Tro2B9ciFCUR5Vsny4FPaQA==",
+  "dgSpecHash": "JlCtv1pM+MLpOb+TPmquAwhut0TfOK7K6tkIlrNXZY8w+Po5ypJ1/jGRDSMXKLqixRbCelnnUOBmY8GWGRslLQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj",
+  "projectFilePath": "C:\\Projects\\Web\\Kalio\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.9\\microsoft.aspnet.razor.3.2.9.nupkg.sha512",

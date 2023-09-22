@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bvsug3To1bLEiSXfo3jV8B0L0fC9Mxa8ve0ns0caU3v/qKNzq7wt4blrd7QU/VT2MBnZcBobmAS1Gn3FaGuMZg==",
+  "dgSpecHash": "yy3887uCN0gLQ9YTwGNG2PJH7IulANNF4RLM7W9w1c/iDZxy9fKK/j1T8IraoiywQAkwnJrWvb7/6vGCnzDuSA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Web\\Kalio.Web.csproj",
+  "projectFilePath": "C:\\Projects\\Web\\Kalio\\Kalio.Web\\Kalio.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\audit.entityframework\\21.0.3\\audit.entityframework.21.0.3.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\audit.net\\21.0.3\\audit.net.21.0.3.nupkg.sha512",

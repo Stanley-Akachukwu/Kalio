@@ -21,8 +21,20 @@ jobs:
       with:
         dotnet-version: 7.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: |
+        cd ./Kalio.WebAPI/
+        dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: |
+       cd ./Kalio.WebAPI/
+       dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: |
+       cd ./Kalio.WebAPI/
+       dotnet test --no-build --verbosity normal
+
+    #   run: dotnet restore
+    # - name: Build
+    #   run: dotnet build --no-restore
+    # - name: Test
+    #   run: dotnet test --no-build --verbosity normal

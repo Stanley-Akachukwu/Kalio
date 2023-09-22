@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Web\\KalioSolution\\Kalio.Web\\Kalio.Web.csproj": {}
+    "C:\\Projects\\Web\\Kalio\\Kalio.Web\\Kalio.Web.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\Kalio.Common.csproj": {
+    "C:\\Projects\\Web\\Kalio\\Kalio.Common\\Kalio.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\Kalio.Common.csproj",
+        "projectUniqueName": "C:\\Projects\\Web\\Kalio\\Kalio.Common\\Kalio.Common.csproj",
         "projectName": "Kalio.Common",
-        "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\Kalio.Common.csproj",
+        "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Common\\Kalio.Common.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\obj\\",
+        "outputPath": "C:\\Projects\\Web\\Kalio\\Kalio.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Projects\\Web\\KalioSolution\\Kalio.Core\\Kalio.Core.csproj": {
+    "C:\\Projects\\Web\\Kalio\\Kalio.Core\\Kalio.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Web\\KalioSolution\\Kalio.Core\\Kalio.Core.csproj",
+        "projectUniqueName": "C:\\Projects\\Web\\Kalio\\Kalio.Core\\Kalio.Core.csproj",
         "projectName": "Kalio.Core",
-        "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Core\\Kalio.Core.csproj",
+        "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Core\\Kalio.Core.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Core\\obj\\",
+        "outputPath": "C:\\Projects\\Web\\Kalio\\Kalio.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -110,14 +110,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Projects\\Web\\KalioSolution\\Kalio.Domain\\Kalio.Domain.csproj": {
-                "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Domain\\Kalio.Domain.csproj"
+              "C:\\Projects\\Web\\Kalio\\Kalio.Domain\\Kalio.Domain.csproj": {
+                "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Domain\\Kalio.Domain.csproj"
               },
-              "C:\\Projects\\Web\\KalioSolution\\Kalio.Entities\\Kalio.Entities.csproj": {
-                "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Entities\\Kalio.Entities.csproj"
+              "C:\\Projects\\Web\\Kalio\\Kalio.Entities\\Kalio.Entities.csproj": {
+                "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Entities\\Kalio.Entities.csproj"
               },
-              "C:\\Projects\\Web\\KalioSolution\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj": {
-                "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj"
+              "C:\\Projects\\Web\\Kalio\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj"
               }
             }
           }
@@ -168,14 +168,14 @@
         }
       }
     },
-    "C:\\Projects\\Web\\KalioSolution\\Kalio.Domain\\Kalio.Domain.csproj": {
+    "C:\\Projects\\Web\\Kalio\\Kalio.Domain\\Kalio.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Web\\KalioSolution\\Kalio.Domain\\Kalio.Domain.csproj",
+        "projectUniqueName": "C:\\Projects\\Web\\Kalio\\Kalio.Domain\\Kalio.Domain.csproj",
         "projectName": "Kalio.Domain",
-        "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Domain\\Kalio.Domain.csproj",
+        "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Domain\\Kalio.Domain.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Domain\\obj\\",
+        "outputPath": "C:\\Projects\\Web\\Kalio\\Kalio.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -197,14 +197,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\Kalio.Common.csproj": {
-                "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\Kalio.Common.csproj"
+              "C:\\Projects\\Web\\Kalio\\Kalio.Common\\Kalio.Common.csproj": {
+                "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Common\\Kalio.Common.csproj"
               },
-              "C:\\Projects\\Web\\KalioSolution\\Kalio.Entities\\Kalio.Entities.csproj": {
-                "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Entities\\Kalio.Entities.csproj"
+              "C:\\Projects\\Web\\Kalio\\Kalio.Entities\\Kalio.Entities.csproj": {
+                "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Entities\\Kalio.Entities.csproj"
               },
-              "C:\\Projects\\Web\\KalioSolution\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj": {
-                "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj"
+              "C:\\Projects\\Web\\Kalio\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj"
               }
             }
           }
@@ -251,14 +251,14 @@
         }
       }
     },
-    "C:\\Projects\\Web\\KalioSolution\\Kalio.Entities\\Kalio.Entities.csproj": {
+    "C:\\Projects\\Web\\Kalio\\Kalio.Entities\\Kalio.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Web\\KalioSolution\\Kalio.Entities\\Kalio.Entities.csproj",
+        "projectUniqueName": "C:\\Projects\\Web\\Kalio\\Kalio.Entities\\Kalio.Entities.csproj",
         "projectName": "Kalio.Entities",
-        "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Entities\\Kalio.Entities.csproj",
+        "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Entities\\Kalio.Entities.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Entities\\obj\\",
+        "outputPath": "C:\\Projects\\Web\\Kalio\\Kalio.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -280,8 +280,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\Kalio.Common.csproj": {
-                "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\Kalio.Common.csproj"
+              "C:\\Projects\\Web\\Kalio\\Kalio.Common\\Kalio.Common.csproj": {
+                "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Common\\Kalio.Common.csproj"
               }
             }
           }
@@ -348,14 +348,14 @@
         }
       }
     },
-    "C:\\Projects\\Web\\KalioSolution\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj": {
+    "C:\\Projects\\Web\\Kalio\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Web\\KalioSolution\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Projects\\Web\\Kalio\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj",
         "projectName": "Kalio.Infrastructure",
-        "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj",
+        "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Infrastructure\\obj\\",
+        "outputPath": "C:\\Projects\\Web\\Kalio\\Kalio.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -377,8 +377,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\Kalio.Common.csproj": {
-                "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Common\\Kalio.Common.csproj"
+              "C:\\Projects\\Web\\Kalio\\Kalio.Common\\Kalio.Common.csproj": {
+                "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Common\\Kalio.Common.csproj"
               }
             }
           }
@@ -415,14 +415,14 @@
         }
       }
     },
-    "C:\\Projects\\Web\\KalioSolution\\Kalio.Web\\Kalio.Web.csproj": {
+    "C:\\Projects\\Web\\Kalio\\Kalio.Web\\Kalio.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Web\\KalioSolution\\Kalio.Web\\Kalio.Web.csproj",
+        "projectUniqueName": "C:\\Projects\\Web\\Kalio\\Kalio.Web\\Kalio.Web.csproj",
         "projectName": "Kalio.Web",
-        "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Web\\Kalio.Web.csproj",
+        "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Web\\Kalio.Web.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Web\\obj\\",
+        "outputPath": "C:\\Projects\\Web\\Kalio\\Kalio.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -444,11 +444,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Projects\\Web\\KalioSolution\\Kalio.Core\\Kalio.Core.csproj": {
-                "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Core\\Kalio.Core.csproj"
+              "C:\\Projects\\Web\\Kalio\\Kalio.Core\\Kalio.Core.csproj": {
+                "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Core\\Kalio.Core.csproj"
               },
-              "C:\\Projects\\Web\\KalioSolution\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj": {
-                "projectPath": "C:\\Projects\\Web\\KalioSolution\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj"
+              "C:\\Projects\\Web\\Kalio\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\Web\\Kalio\\Kalio.Infrastructure\\Kalio.Infrastructure.csproj"
               }
             }
           }
