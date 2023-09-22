@@ -39,6 +39,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalio.Infrastructure", "Kal
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A614B677-F597-43E8-93FD-766DC6C15E00}"
 	ProjectSection(SolutionItems) = preProject
+		Github Actions Local.txt = Github Actions Local.txt
 		Implementation Hints.txt = Implementation Hints.txt
 		Progress Note.txt = Progress Note.txt
 	EndProjectSection
