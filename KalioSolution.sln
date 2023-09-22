@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34004.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kalio.Web", "Kalio.Web", "{4B27CB71-0BD1-4207-853B-703EC0001D1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kalio.API", "Kalio.API", "{15CEE904-15B9-4F3C-9990-A16816E1F80F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kalio.Maui", "Kalio.Maui", "{CFE1D6B0-E907-4EE4-A573-C2778097D8AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kalio.Core", "Kalio.Core", "{77E5B515-8D59-47A1-9228-1E75D51D1B16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kalio.Domain", "Kalio.Domain", "{09F9F823-CB6B-4047-8297-BE93FCAE96AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kalio.Test", "Kalio.Test", "{245398F9-9673-4B90-BB84-1D787A643EF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kalio.Entites", "Kalio.Entites", "{CF7ECBC7-DD0B-4CB9-A81C-DDBEFB554CC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kalio.Common", "Kalio.Common", "{DB8B113F-9EAA-4DA1-9A3D-9689031C4D01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kalio.Infrastructure", "Kalio.Infrastructure", "{1601A06E-7531-4C13-9F1E-D907639E0B28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalio.Maui", "Kalio.Maui\Kalio.Maui.csproj", "{02D1A4B2-4F41-4B97-BF90-7A64EF10D8DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalio.Web", "Kalio.Web\Kalio.Web.csproj", "{57C8DD37-C92C-4E4D-ACCD-25A6455EEA80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalio.Test", "Kalio.Test\Kalio.Test.csproj", "{FE852ACF-FFDD-412F-A980-E5A4B79D6620}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalio.Common", "Kalio.Common\Kalio.Common.csproj", "{D91B1999-C975-43C2-947A-7F4AABF5C72E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalio.Core", "Kalio.Core\Kalio.Core.csproj", "{4B2D2955-3E6B-4DCD-BF3E-A32D1980A679}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalio.Domain", "Kalio.Domain\Kalio.Domain.csproj", "{81901887-EE39-4402-B3D8-5844194ADC49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalio.Entities", "Kalio.Entities\Kalio.Entities.csproj", "{6BE4AF7B-328B-4306-B48A-3A6A8317750C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalio.Infrastructure", "Kalio.Infrastructure\Kalio.Infrastructure.csproj", "{F546EC5D-A6FD-4D6A-99A4-130B4910D8D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A614B677-F597-43E8-93FD-766DC6C15E00}"
+	ProjectSection(SolutionItems) = preProject
+		Implementation Hints.txt = Implementation Hints.txt
+		Progress Note.txt = Progress Note.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalio.WebAPI", "Kalio.WebAPI\Kalio.WebAPI.csproj", "{1E57FC54-4FA9-40E7-B0FE-8FD75E290003}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02D1A4B2-4F41-4B97-BF90-7A64EF10D8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D1A4B2-4F41-4B97-BF90-7A64EF10D8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D1A4B2-4F41-4B97-BF90-7A64EF10D8DB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{02D1A4B2-4F41-4B97-BF90-7A64EF10D8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D1A4B2-4F41-4B97-BF90-7A64EF10D8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D1A4B2-4F41-4B97-BF90-7A64EF10D8DB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{57C8DD37-C92C-4E4D-ACCD-25A6455EEA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C8DD37-C92C-4E4D-ACCD-25A6455EEA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C8DD37-C92C-4E4D-ACCD-25A6455EEA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C8DD37-C92C-4E4D-ACCD-25A6455EEA80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE852ACF-FFDD-412F-A980-E5A4B79D6620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE852ACF-FFDD-412F-A980-E5A4B79D6620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE852ACF-FFDD-412F-A980-E5A4B79D6620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE852ACF-FFDD-412F-A980-E5A4B79D6620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91B1999-C975-43C2-947A-7F4AABF5C72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91B1999-C975-43C2-947A-7F4AABF5C72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91B1999-C975-43C2-947A-7F4AABF5C72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91B1999-C975-43C2-947A-7F4AABF5C72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B2D2955-3E6B-4DCD-BF3E-A32D1980A679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2D2955-3E6B-4DCD-BF3E-A32D1980A679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2D2955-3E6B-4DCD-BF3E-A32D1980A679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2D2955-3E6B-4DCD-BF3E-A32D1980A679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81901887-EE39-4402-B3D8-5844194ADC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81901887-EE39-4402-B3D8-5844194ADC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81901887-EE39-4402-B3D8-5844194ADC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81901887-EE39-4402-B3D8-5844194ADC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE4AF7B-328B-4306-B48A-3A6A8317750C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE4AF7B-328B-4306-B48A-3A6A8317750C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE4AF7B-328B-4306-B48A-3A6A8317750C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE4AF7B-328B-4306-B48A-3A6A8317750C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F546EC5D-A6FD-4D6A-99A4-130B4910D8D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F546EC5D-A6FD-4D6A-99A4-130B4910D8D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F546EC5D-A6FD-4D6A-99A4-130B4910D8D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F546EC5D-A6FD-4D6A-99A4-130B4910D8D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E57FC54-4FA9-40E7-B0FE-8FD75E290003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E57FC54-4FA9-40E7-B0FE-8FD75E290003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E57FC54-4FA9-40E7-B0FE-8FD75E290003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E57FC54-4FA9-40E7-B0FE-8FD75E290003}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02D1A4B2-4F41-4B97-BF90-7A64EF10D8DB} = {CFE1D6B0-E907-4EE4-A573-C2778097D8AF}
+		{57C8DD37-C92C-4E4D-ACCD-25A6455EEA80} = {4B27CB71-0BD1-4207-853B-703EC0001D1A}
+		{FE852ACF-FFDD-412F-A980-E5A4B79D6620} = {245398F9-9673-4B90-BB84-1D787A643EF1}
+		{D91B1999-C975-43C2-947A-7F4AABF5C72E} = {DB8B113F-9EAA-4DA1-9A3D-9689031C4D01}
+		{4B2D2955-3E6B-4DCD-BF3E-A32D1980A679} = {77E5B515-8D59-47A1-9228-1E75D51D1B16}
+		{81901887-EE39-4402-B3D8-5844194ADC49} = {09F9F823-CB6B-4047-8297-BE93FCAE96AE}
+		{6BE4AF7B-328B-4306-B48A-3A6A8317750C} = {CF7ECBC7-DD0B-4CB9-A81C-DDBEFB554CC5}
+		{F546EC5D-A6FD-4D6A-99A4-130B4910D8D0} = {1601A06E-7531-4C13-9F1E-D907639E0B28}
+		{1E57FC54-4FA9-40E7-B0FE-8FD75E290003} = {15CEE904-15B9-4F3C-9990-A16816E1F80F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E760FBD-CDF5-4515-A69B-A72763FF15EA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WPbiXd+LfWN04Z/MsyRSbWP7qKM/tlrJpdtYb73jBsE=",
+  "Source": "Kalio.WebAPI",
+  "BasePath": "_content/Kalio.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

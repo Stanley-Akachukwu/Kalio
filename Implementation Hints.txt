@@ -1,0 +1,32 @@
+Odata Notes: https://www.learmoreseekmore.com/2023/03/demo-on-odata-v8-in-dotnet7-api-application.html
+1. $select:
+http://localhost:5093/employee?$select=firstname,salary
+
+2. $filter:
+The $filter filters data based on a boolean condition. The following are conditional operators that have to be used in 'URLs':
+eq- equals to
+ne - not equals to
+gt -greater than
+ge - greater than or equal
+lt - less than
+le - less than or equal
+
+http://localhost:5093/employee?$filter=salary eq 19000
+
+3. $orderby:
+http://localhost:5093/employee?$orderby=id desc
+
+4. $skip:
+The $skip skips the specified number of records and fetches the remaining data
+http://localhost:5093/employee?$skip=2
+
+
+5. $top:
+The $top fetches specified the count of top records in the collection. so to work this operator, we must specify an extension method like 'SetMaxTo(specify_max_number)'.
+http://localhost:5093/employee?$top=2
+
+6. $expand:
+Using $expand we can query the internal or navigating property object. So we have to assign the navigation property name to the '$expand' then we can apply all other operations like '$select', '$filter', '$skip' on the navigation property type.
+http://localhost:5093/Employee?$expand=EmployeeAddresses($select=Id, city)
+
+7. $count:
