@@ -1,16 +1,18 @@
+- Install Docker
 - Install Windgate
 - Write Your yaml code
+- CMD to Project directory
 
 
-Run GitHub Actions using Act
+Run GitHub Actions using Act:
 
 Run the following command to list all available actions:
 act -l
 
 To run a specific action, use the following command:
-act -j <action_name>
+act -j <action or job name>
 
-Replace <action_name> with the name of the action you want to run.
+Replace <action or job name> with the name of the action you want to run.
 
 
 To run this Action locally using act, use the following command:
