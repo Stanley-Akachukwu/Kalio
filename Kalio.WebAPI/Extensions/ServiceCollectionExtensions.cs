@@ -3,6 +3,7 @@ using Kalio.Core.Services.Users;
 using Kalio.Core.Services.Users.Implementation;
 using Kalio.Entities;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -14,11 +15,17 @@ namespace Kalio.WebAPI.Extensions
     {
         public static IServiceCollection AddKalioDatabaseConnections(this IServiceCollection services, ConfigurationManager configuration)
         {
+            //dotnet ef migrations add InitialCreate --project DataAccess_Project --startup-project WebApp_Project
+            //dotnet ef database update --project DataAccess_Project --startup-project WebApp_Project
+
+            //dotnet ef migrations add InitialCreate --project Kalio.Entities --startup-project Kalio.WebAPI --context KalioIdentityDbContext
+            //dotnet ef database update --project Kalio.Entities --startup-project Kalio.WebAPI --context KalioIdentityDbContext
+
             services.AddDbContext<KalioDbContext>(options => options.UseSqlServer(configuration["Data:KalioConnection:ConnectionString"]));
             services.AddDbContext<KalioIdentityDbContext>(options => options.UseSqlServer(configuration["Data:KalioIdentityConnection:ConnectionString"]));
             return services;
         }
-
+         
         public static IServiceCollection AddKalioLibraries(this IServiceCollection services, ConfigurationManager configuration)
         {
             services.AddMediatR(cfg =>

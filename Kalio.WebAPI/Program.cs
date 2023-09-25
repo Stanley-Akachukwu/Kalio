@@ -1,14 +1,8 @@
-using Kalio.Core.Defaults.Weather;
 using Kalio.Entities.Defaults.Weather;
 using Kalio.WebAPI.Extensions;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.OData;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
-using Microsoft.OpenApi.Models;
-using Swashbuckle.AspNetCore.SwaggerUI;
-using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 

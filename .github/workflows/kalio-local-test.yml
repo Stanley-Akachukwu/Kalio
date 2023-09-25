@@ -33,4 +33,12 @@ jobs:
        cd ./Kalio.WebAPI/
        dotnet test --no-build --verbosity normal
 
-   
+    # - name: Run migrations
+    #   run: |
+    #    cd ../Kalio/Kalio.Entities
+    #    #dotnet new tool-manifest
+    #    dotnet tool install --global dotnet-ef
+    #    ls -R
+    #    dotnet ef database update --project Kalio.Entities --startup-project Kalio.WebAPI --context KalioIdentityDbContext
+
+        

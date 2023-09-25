@@ -22,3 +22,16 @@ C:\Projects\Web\KalioSolution\Kalio.Common\obj\Debug\net7.0\Kalio.Common.dll
 C:\Projects\Web\KalioSolution\Kalio.Common\obj\Debug\net7.0\refint\Kalio.Common.dll
 C:\Projects\Web\KalioSolution\Kalio.Common\obj\Debug\net7.0\Kalio.Common.pdb
 C:\Projects\Web\KalioSolution\Kalio.Common\obj\Debug\net7.0\ref\Kalio.Common.dll
+C:\Projects\Web\Kalio\Kalio.Common\bin\Debug\net7.0\Kalio.Common.deps.json
+C:\Projects\Web\Kalio\Kalio.Common\bin\Debug\net7.0\Kalio.Common.dll
+C:\Projects\Web\Kalio\Kalio.Common\bin\Debug\net7.0\Kalio.Common.pdb
+C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.csproj.AssemblyReference.cache
+C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.AssemblyInfoInputs.cache
+C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.AssemblyInfo.cs
+C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.csproj.CoreCompileInputs.cache
+C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.sourcelink.json
+C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.dll
+C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\refint\Kalio.Common.dll
+C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.pdb
+C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\ref\Kalio.Common.dll

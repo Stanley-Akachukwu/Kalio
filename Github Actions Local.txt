@@ -3,11 +3,18 @@
 - Write Your yaml code
 - CMD to Project directory
 
-
+On the Project Solution Folder:
 Run GitHub Actions using Act:
+
+cd to C:\Projects\Web\Kalio
+
 
 Run the following command to list all available actions:
 act -l
+
+To run the workflow, you can use the following command:
+act
+This will first download the docker image and then run the workflow
 
 To run a specific action, use the following command:
 act -j <action or job name>
@@ -18,4 +25,8 @@ Replace <action or job name> with the name of the action you want to run.
 To run this Action locally using act, use the following command:
 act -j build
 
-This will execute the build job defined in the my-action.yml file.
+
+
+
+
+dotnet tool install -g dotnet-ef
