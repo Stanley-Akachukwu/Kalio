@@ -12,15 +12,15 @@
       },
       {
         "name": "Microsoft.Maui.Core",
-        "version": "7.0.92"
+        "version": "**FromWorkload**"
       },
       {
         "name": "Microsoft.Maui.Controls",
-        "version": "7.0.92"
+        "version": "**FromWorkload**"
       },
       {
         "name": "Microsoft.Maui.Essentials",
-        "version": "7.0.92"
+        "version": "**FromWorkload**"
       }
     ],
     "configProperties": {

@@ -38,7 +38,6 @@ C:\Projects\Web\Kalio\Kalio.Infrastructure\obj\Debug\net7.0\Kalio.Infrastructure
 C:\Projects\Web\Kalio\Kalio.Infrastructure\obj\Debug\net7.0\Kalio.Infrastructure.AssemblyInfoInputs.cache
 C:\Projects\Web\Kalio\Kalio.Infrastructure\obj\Debug\net7.0\Kalio.Infrastructure.AssemblyInfo.cs
 C:\Projects\Web\Kalio\Kalio.Infrastructure\obj\Debug\net7.0\Kalio.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Projects\Web\Kalio\Kalio.Infrastructure\obj\Debug\net7.0\Kalio.Infrastructure.sourcelink.json
 C:\Projects\Web\Kalio\Kalio.Infrastructure\obj\Debug\net7.0\Kalio.Infrastructure.csproj.CopyComplete
 C:\Projects\Web\Kalio\Kalio.Infrastructure\obj\Debug\net7.0\Kalio.Infrastructure.dll
 C:\Projects\Web\Kalio\Kalio.Infrastructure\obj\Debug\net7.0\refint\Kalio.Infrastructure.dll

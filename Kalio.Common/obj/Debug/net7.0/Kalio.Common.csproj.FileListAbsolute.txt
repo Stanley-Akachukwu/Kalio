@@ -30,7 +30,6 @@ C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.GeneratedMSBuil
 C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.AssemblyInfoInputs.cache
 C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.AssemblyInfo.cs
 C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.csproj.CoreCompileInputs.cache
-C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.sourcelink.json
 C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.dll
 C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\refint\Kalio.Common.dll
 C:\Projects\Web\Kalio\Kalio.Common\obj\Debug\net7.0\Kalio.Common.pdb

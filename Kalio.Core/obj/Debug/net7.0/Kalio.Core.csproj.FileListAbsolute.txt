@@ -61,7 +61,6 @@ C:\Projects\Web\Kalio\Kalio.Core\obj\Debug\net7.0\Kalio.Core.GeneratedMSBuildEdi
 C:\Projects\Web\Kalio\Kalio.Core\obj\Debug\net7.0\Kalio.Core.AssemblyInfoInputs.cache
 C:\Projects\Web\Kalio\Kalio.Core\obj\Debug\net7.0\Kalio.Core.AssemblyInfo.cs
 C:\Projects\Web\Kalio\Kalio.Core\obj\Debug\net7.0\Kalio.Core.csproj.CoreCompileInputs.cache
-C:\Projects\Web\Kalio\Kalio.Core\obj\Debug\net7.0\Kalio.Core.sourcelink.json
 C:\Projects\Web\Kalio\Kalio.Core\obj\Debug\net7.0\Kalio.Core.csproj.CopyComplete
 C:\Projects\Web\Kalio\Kalio.Core\obj\Debug\net7.0\Kalio.Core.dll
 C:\Projects\Web\Kalio\Kalio.Core\obj\Debug\net7.0\refint\Kalio.Core.dll

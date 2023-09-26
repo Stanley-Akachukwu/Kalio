@@ -228,7 +228,6 @@ C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\Kalio.WebAPI.AssemblyInfo.cs
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\Kalio.WebAPI.csproj.CoreCompileInputs.cache
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\Kalio.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\Kalio.WebAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\Kalio.WebAPI.sourcelink.json
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.Kalio.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props

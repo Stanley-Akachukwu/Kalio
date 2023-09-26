@@ -43,7 +43,6 @@ C:\Projects\Web\Kalio\Kalio.Entities\obj\Debug\net7.0\Kalio.Entities.GeneratedMS
 C:\Projects\Web\Kalio\Kalio.Entities\obj\Debug\net7.0\Kalio.Entities.AssemblyInfoInputs.cache
 C:\Projects\Web\Kalio\Kalio.Entities\obj\Debug\net7.0\Kalio.Entities.AssemblyInfo.cs
 C:\Projects\Web\Kalio\Kalio.Entities\obj\Debug\net7.0\Kalio.Entities.csproj.CoreCompileInputs.cache
-C:\Projects\Web\Kalio\Kalio.Entities\obj\Debug\net7.0\Kalio.Entities.sourcelink.json
 C:\Projects\Web\Kalio\Kalio.Entities\obj\Debug\net7.0\Kalio.Entities.csproj.CopyComplete
 C:\Projects\Web\Kalio\Kalio.Entities\obj\Debug\net7.0\Kalio.Entities.dll
 C:\Projects\Web\Kalio\Kalio.Entities\obj\Debug\net7.0\refint\Kalio.Entities.dll

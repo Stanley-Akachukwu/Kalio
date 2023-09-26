@@ -55,7 +55,6 @@ C:\Projects\Web\Kalio\Kalio.Domain\obj\Debug\net7.0\Kalio.Domain.GeneratedMSBuil
 C:\Projects\Web\Kalio\Kalio.Domain\obj\Debug\net7.0\Kalio.Domain.AssemblyInfoInputs.cache
 C:\Projects\Web\Kalio\Kalio.Domain\obj\Debug\net7.0\Kalio.Domain.AssemblyInfo.cs
 C:\Projects\Web\Kalio\Kalio.Domain\obj\Debug\net7.0\Kalio.Domain.csproj.CoreCompileInputs.cache
-C:\Projects\Web\Kalio\Kalio.Domain\obj\Debug\net7.0\Kalio.Domain.sourcelink.json
 C:\Projects\Web\Kalio\Kalio.Domain\obj\Debug\net7.0\Kalio.Domain.csproj.CopyComplete
 C:\Projects\Web\Kalio\Kalio.Domain\obj\Debug\net7.0\Kalio.Domain.dll
 C:\Projects\Web\Kalio\Kalio.Domain\obj\Debug\net7.0\refint\Kalio.Domain.dll
