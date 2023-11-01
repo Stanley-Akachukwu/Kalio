@@ -29,8 +29,6 @@ public partial class UpdateWeatherCommandValidator : AbstractValidator<UpdateWea
         //        "Saving Application not found", data.ApplicationId));
         //});
     }
-
-
 }
 
 

@@ -10,12 +10,17 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="FluentValidation" Version="11.7.1" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.7.1" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Kalio.Domain\Kalio.Domain.csproj" />
     <ProjectReference Include="..\Kalio.Entities\Kalio.Entities.csproj" />
     <ProjectReference Include="..\Kalio.Infrastructure\Kalio.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Users\Implementation\" />
   </ItemGroup>
 
 </Project>

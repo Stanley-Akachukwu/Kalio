@@ -10,7 +10,7 @@ using Kalio.Common;
 
 namespace Kalio.Entities
 {
-    [AuditInclude]
+    //[AuditInclude]
     public abstract class BaseEntity<T>  
     {
 

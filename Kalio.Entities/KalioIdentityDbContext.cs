@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Kalio.Entities
 {
     public class KalioIdentityDbContext : IdentityDbContext

@@ -1,30 +1,46 @@
-﻿using Kalio.Common;
-using Kalio.Core.Services.Users;
+﻿using AutoMapper;
+using Kalio.Common;
+using Kalio.Core.Users;
 using Kalio.Domain.Users;
-using Microsoft.AspNetCore.Http;
+using Kalio.Entities;
+using Kalio.WebAPI.Config;
+using MediatR;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Kalio.WebAPI.Controllers.Users
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("[controller]")]
     public class AuthenticationController : ControllerBase
     {
-        private IUserRepository _userRepository;
-        public AuthenticationController(IUserRepository userRepository)
+        private readonly KalioIdentityDbContext _dbContext;
+        private readonly IMapper _mapper;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly UserManager<IdentityUser> _userManager;
+        private IConfiguration _configuration;
+        private readonly IMediator _mediator;
+        public AuthenticationController(KalioIdentityDbContext dbContext, IMapper mapper, RoleManager<IdentityRole> roleManager, UserManager<IdentityUser> userManager, IConfiguration configuration, IMediator mediator)
         {
-            _userRepository = userRepository;
+
+            _dbContext = dbContext;
+            _mapper = mapper;
+            _roleManager = roleManager;
+            _userManager = userManager;
+            _configuration = configuration;
+            _mediator = mediator;
         }
-        [HttpPost]
+        
+       
+        [HttpPost("login")]
         [ProducesResponseType(typeof(CommandResult<AuthenticatedResult>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(CommandResult<string>), StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(CommandResult<string>), StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> Authenticate([FromBody] LoginViewModel model)
+        public async Task<IActionResult> Authenticate([FromBody] AuthenticateUserCommand model)
         {
-            //Change to mediator
-            var rsp = await _userRepository.AuthenticateUserAsync(model);
-            return Ok(rsp);
+            var rsp = await _mediator.Send(model);
+            var result = await ControllerUtil.MapResponseByStatusCode(rsp, rsp.StatusCode);
+            return result;
         }
-
     }
 }

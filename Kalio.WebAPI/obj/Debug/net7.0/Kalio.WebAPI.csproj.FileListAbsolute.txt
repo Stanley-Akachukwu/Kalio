@@ -128,6 +128,8 @@ C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\Kalio.WebAPI.runtimeconfig.j
 C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\Kalio.WebAPI.dll
 C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\Kalio.WebAPI.pdb
 C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\Audit.EntityFramework.dll
+C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\Audit.EntityFramework.Core.dll
+C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\Audit.EntityFramework.Identity.Core.dll
 C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\Audit.NET.dll
 C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\AutoMapper.dll
 C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -136,6 +138,7 @@ C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
 C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\EntityFramework.SqlServer.dll
 C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\EntityFramework.dll
 C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\FluentValidation.dll
+C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
 C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\Humanizer.dll
 C:\Projects\Web\Kalio\Kalio.WebAPI\bin\Debug\net7.0\MediatR.dll
@@ -228,13 +231,13 @@ C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\Kalio.WebAPI.AssemblyInfo.cs
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\Kalio.WebAPI.csproj.CoreCompileInputs.cache
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\Kalio.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\Kalio.WebAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
-C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.Kalio.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.Kalio.WebAPI.props
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Kalio.WebAPI.props
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Kalio.WebAPI.props
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\scopedcss\bundle\Kalio.WebAPI.styles.css
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\Kalio.WebAPI.csproj.CopyComplete
 C:\Projects\Web\Kalio\Kalio.WebAPI\obj\Debug\net7.0\Kalio.WebAPI.dll

@@ -1,19 +1,13 @@
-﻿using Kalio.Core.Services.Users;
+﻿using Kalio.Domain.Users;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
 
  namespace Kalio.WebAPI.Securities
 {
     public class KalioAuthorize : Attribute, IAuthorizationFilter
     {
         readonly string _claim;
-
         public KalioAuthorize(string claim)
         {
             _claim = claim;
@@ -28,12 +22,20 @@ using System.Threading.Tasks;
                 return;
             }
 
-            var _userRepository = context.HttpContext.RequestServices.GetService<IUserRepository>();
+            var _mediator = context.HttpContext.RequestServices.GetService<IMediator>();
 
             var userId = user.Claims.FirstOrDefault(c => c.Type == "Email").Value;
-            var result = _userRepository.GetPermissionsByUserIdAsync(userId).Result;
-            var claims = result.Response;
-            if (!claims.Contains(_claim))
+            try
+            {
+                var result = _mediator.Send(new GetUserClaimsCommand() { UserId = userId }).Result;
+                var claims = result.Response;
+                if (!claims.Contains(_claim))
+                {
+                    context.Result = new StatusCodeResult((int)System.Net.HttpStatusCode.Forbidden);
+                    return;
+                }
+            }
+            catch (Exception)
             {
                 context.Result = new StatusCodeResult((int)System.Net.HttpStatusCode.Forbidden);
                 return;

@@ -1,9 +1,10 @@
-﻿using Kalio.Core.Defaults.Weather;
-using Kalio.Core.Services.Users;
-using Kalio.Core.Services.Users.Implementation;
+﻿using FluentValidation.AspNetCore;
+using Kalio.Core.Defaults.Weather;
+using Kalio.Core.Roles;
+using Kalio.Core.Roles.Claims;
+using Kalio.Core.Users;
 using Kalio.Entities;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -30,9 +31,15 @@ namespace Kalio.WebAPI.Extensions
         {
             services.AddMediatR(cfg =>
             {
-                cfg.RegisterServicesFromAssembly(typeof(WeatherCommandHandler).Assembly);
+                cfg.RegisterServicesFromAssembly(typeof(CreateRoleCommandValidator).Assembly);
             });
-            services.AddAutoMapper(typeof(WeatherCommandHandler).Assembly);
+            services.AddAutoMapper(typeof(CreateUserCommandValidator).Assembly);
+             
+            services.AddFluentValidation(options =>
+            {
+                options.RegisterValidatorsFromAssemblyContaining<CreateClaimValidator>();
+            });
+
             return services;
         }
         public static IServiceCollection AddAuthentication(this IServiceCollection services, ConfigurationManager configuration)
@@ -74,8 +81,7 @@ namespace Kalio.WebAPI.Extensions
 
         public static IServiceCollection AddKalioServices(this IServiceCollection services, ConfigurationManager configuration)
         {
-            services.AddScoped<IUserRepository, UserRepository>();
-            //services.AddScoped<IConfiguration>();
+           // services.AddScoped<IUserRepository, UserRepository>();
             return services;
         }
     }

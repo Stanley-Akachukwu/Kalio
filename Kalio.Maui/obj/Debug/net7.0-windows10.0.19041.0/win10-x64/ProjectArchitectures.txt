@@ -1,1 +1,0 @@
-C:\Projects\Web\Kalio\Kalio.Maui\Kalio.Maui.csproj;x64

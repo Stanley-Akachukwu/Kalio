@@ -1,5 +1,7 @@
+using Kalio.Domain.Roles.Claims;
 using Kalio.Entities.Defaults.Weather;
 using Kalio.WebAPI.Extensions;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.OData;
 using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
@@ -17,7 +19,6 @@ builder.Services.AddKalioDatabaseConnections(builder.Configuration);
 builder.Services.AddAuthentication(builder.Configuration);
 builder.Services.AddAuthorization(builder.Configuration);
 builder.Services.AddKalioServices(builder.Configuration);
-
 
 
 var app = builder.Build();
@@ -42,5 +43,8 @@ static IEdmModel GetEdmModel()
 {
     ODataConventionModelBuilder modelBuilder = new ODataConventionModelBuilder();
     modelBuilder.EntitySet<WeatherForecast>("WeatherForecast");
+    modelBuilder.EntitySet<IdentityRole>("Roles");
+    modelBuilder.EntitySet<IdentityUser>("Users");
+    modelBuilder.EntitySet<ClaimViewModel>("Claims");
     return modelBuilder.GetEdmModel();
 }
